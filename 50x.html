@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<style type = "text/css">
+		body {width: 1000px; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif;}
+		img {border: 0;}
+		#menu ul {margin: 0 auto; padding: 0; list-style: none; width: 800px;}
+		#menu ul li {background: #; height: 37px; line-height: 37px;
+						border-bottom: 1px solid #ccc; text-align: center;
+						float: left; width:154px; margin-right: 10px;}
+		#menu ul li a {color: #000; text-decoration: none; display: block;
+						width: 154px; height: 37px;
+						background: #111;}
+		#menu ul li a:hover {background-color: #123123;
+							background:url}
+		#menu ul li ul li {float: none; width: 154px; margin: 0;}
+		.clear {clear: both;}
+	</style>
+</head>
+<body>
+	<h1 style="text-align:center">An error occurred.</h1>
+	<div id = "menu">
+		<ul>
+			<li><a href = "#" id = "on"> div+css </a>
+				<ul>
+					<li><a href = "#"> 1 </a></li>
+					<li><a href = "#"> 2 </a></li>
+					<li><a href = "#"> 3 </a></li>
+					<li><a href = "#"> 4 </a></li>
+				</ul>
+			</li>
+			<li><a href = "#"> java </a></li>
+			<li><a href = "#"> .net </a></li>
+			<div class = "clear"></div>
+	</div>
+	<p>Sorry, the page you are looking for is currently unavailable.<br/>
+	Please try again later.</p>
+	<hr />
+	<code>If you are the system administrator of this resource then you should check
+	the <a href="http://nginx.org/r/error_log">error log</a> for details.</code>
+	<p><em>Faithfully yours, nginx.</em></p>
+</body>
+</html>

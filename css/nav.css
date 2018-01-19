@@ -1,0 +1,87 @@
+
+/*nav导航盒子*/
+div.nav{
+    width: 1200px;
+    height: 50px;
+	margin: 0px auto 0px auto;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    background: #643519;
+	font-size: 16px;
+	font-family: 'MicroSoft YaHei';
+	font-weight: normal;
+	color: #ffffff;
+}
+/*nav-main*/
+ul.nav-main{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+	margin: 0 auto 0 auto;
+}
+ul.nav-main span{
+    display: inline-block;
+    margin-left: 0px;
+    width: 220px;
+    height: 50px;
+}
+/*图标向上旋转*/
+.hover-up{
+    transition-duration: .5s;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+/*图标向下旋转*/
+.hover-down{
+    transition-duration: .5s;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+/*导航条设置*/
+ul.nav-main>li{
+    width: 220px;
+    height: 100%;
+    display: block;
+    float: left;
+    background: #643519;
+    color: #fff;
+    margin: 0 auto 0 auto;
+    cursor: pointer;
+}
+ul.nav-main>li:hover{
+    background: #643519;
+}
+/*隐藏盒子设置*/
+div.hidden-box{
+    width: 218px;
+    border: 1px solid #643519;
+    border-top: 0px;
+    position: absolute;
+    display: none;
+	background:#ffffff;
+    top: 50px;
+	z-index: 100;
+}
+.hidden-box>ul{
+    list-style-type: none;
+    color: #643519;
+    cursor: pointer;
+}
+.hidden-box li:hover{
+    background: #643519;
+    color: #ffffff;
+}
+/*隐藏盒子位置设置*/
+.hidden-loc-member{
+    left: 270px;
+}
+.hidden-loc-lab{
+    left: 490px;
+}
+.hidden-loc-party{
+    left: 710px;
+}
+.hidden-loc-proc{
+	left: 930px;
+}

@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>test</title>
+<style>
+.picutre_many img{width:1000px; height:150px;}
+</style>
+</head>
+<body>
+<div id="butong_net_left">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td id="butong_net_left1" valign="top" align="center">
+<table cellpadding="2" cellspacing="0" border="0">
+<tr align="center">
+<td><img style="border: 0px;" alt="" src="./fig/ww.jpg"></td>
+<td><img style="border: 0px;" alt="" src="./fig/hap.jpg"></td>
+<td><img style="border: 0px;" alt="" src="./fig/zcy.jpg"></td>
+</tr>
+</table>
+</td>
+<td id="butong_net_left2" valign="top"></td>
+</tr>
+</table>
+</div>
+<script>
+var speed=30//速度数值越大速度越慢
+butong_net_left2.innerHTML=butong_net_left1.innerHTML
+function Marquee3(){
+if(butong_net_left2.offsetWidth-butong_net_left.scrollLeft<=0)
+butong_net_left.scrollLeft-=butong_net_left1.offsetWidth
+else{
+butong_net_left.scrollLeft++
+}
+}
+var MyMar3=setInterval(Marquee3,speed)
+butong_net_left.onmouseover=function() {clearInterval(MyMar3)}
+butong_net_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
+</script>
+</body>
+</html>
