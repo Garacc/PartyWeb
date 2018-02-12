@@ -60,6 +60,7 @@ div.hidden-box{
     position: absolute;
     display: none;
 	background:#ffffff;
+	color:#643519;
     top: 50px;
 	z-index: 100;
 }
@@ -67,6 +68,18 @@ div.hidden-box{
     list-style-type: none;
     color: #643519;
     cursor: pointer;
+}
+.hidden-box a:link{
+	color: #643519;
+	text-decoration: none;   
+}   
+.hidden-box a:visited{
+	color: #643519;
+	text-decoration: none;   
+}   
+.hidden-box a:hover {
+	color: #ffffff;
+	text-decoration: none;   
 }
 .hidden-box li:hover{
     background: #643519;
