@@ -27,15 +27,36 @@ a:hover {
 /*Title*/
 div.title{
 	width: 1200px;
-	height: 330px;
+	height: 200px;
 	margin: 0px auto 0px auto;
-	line-height: 300px;
+	line-height: 200px;
+	text-align: center;
+}
+
+/*Main Content*/
+div.main-content{
+	width: 1200px;
+	height: 700px;
+	margin: 0px auto 0px auto;
 	text-align: center;
 }
 
 /*Nav-Table*/
 table.nav-table{
 	width: 1200px;
-	margin: 0px auto;
+	margin: 0px auto 0px auto;
 	text-align: center;
+}
+
+/*Footer*/
+div.footer{
+	width: 1200px;
+	height: 35px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	background: #643519;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: 'MicroSoft YaHei';
+	font-weight: normal;
 }
