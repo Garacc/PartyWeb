@@ -39,6 +39,7 @@ div.main-content{
 	height: 700px;
 	margin: 0px auto 0px auto;
 	text-align: center;
+	position: relative;
 }
 
 /*Nav-Table*/

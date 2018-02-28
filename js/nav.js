@@ -7,15 +7,15 @@ $(document).ready(function(){
         /*下拉框出现*/
         var Obj = $(this).attr('id');
         num = Obj.substring(3, Obj.length);
-        $('#box-'+num).slideDown(300);
+        $('#box-'+num).stop().slideDown(200);
     },function(){
         /*下拉框消失*/
-        $('#box-'+num).hide();
+        $('#box-'+num).stop().hide();
     });
 //    hidden-box hover e
     $('.hidden-box').hover(function(){
-        $(this).show();
+        $(this).stop().show();
     },function(){
-        $(this).slideUp(200);
+        $(this).stop().slideUp(100);
     });
 });
