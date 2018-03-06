@@ -9,7 +9,7 @@
 	<!--css style-->
 	<link rel = "stylesheet" href = "css/main.css" />
 	<link rel = "stylesheet" href = "css/nav.css" />
-	<link rel = "stylesheet" href = "css/slider.css" />
+	<link rel = "stylesheet" href = "css/member.css" />
 </head>
 <body>
 
@@ -20,18 +20,18 @@
 
 <!--Navigation-->
 <div class = "nav" id = "nav">
-	<!--Menu-->
+	<!--导航条-->
 	<ul class = "nav-main">
 		<!--For Align-->
 		<li style = "width:50px"></li>
-		<!--Menu-main-->
+		<!--nav-main-->
         <li><a href = "index.html"><span>首页</span></a></li>
 		<li id = "li-1">支部介绍</li>
 		<li id = "li-2">实验室风采</li>
 		<li id = "li-3">党知识学习</li>
 		<li id = "li-4">活动展示</li>
 	</ul>
-	<!--Hidden box-->
+	<!--隐藏盒子-->
 	<div id = "box-1" class = "hidden-box hidden-loc-member">
 		<ul>
 			<a href = 'member_intro.html'><li>成员介绍</li></a>
@@ -59,39 +59,37 @@
 	</div>
 </div>
 
-<!--Slider-->
-<div class = "slider">
-	<div class = "slider-img">
-		<!--img size: 1200 * 400-->
-		<ul class = "slider-img-ul">
-			<li><img src = "img/zcy.jpg"></li>
-			<li><img src = "img/ww.jpg"></li>
-			<li><img src = "img/banner4.jpg"></li>
-			<li><img src = "img/zcj.jpg"></li>
-			<li><img src = "img/zcy.jpg"></li>
-			<li><img src = "img/ww.jpg"></li>
-		</ul>
+<!--Main Content-->
+<div class = "main-content">
+	<div class = "year-title" id = "t-2017">
+		<p>2017年度</p>
+	</div>
+	<div class = "people-column" id = "c-2017">
+		<a href = 'honor_cqm.html'><div class = "peopleblock">
+			<img src = "img/member/cqm.jpg">
+			<div class = "peopleblockhover">
+				<p>陈琪美</p>
+			</div>
+		</div></a>
+	</div>
+	<div class = "year-title" id = "t-2016">
+		<p>2016年度</p>
+	</div>
+	<div class = "people-column" id = "c-2016">
+		<div class = "peopleblock">
+			<img src = "img/member/zyh.jpg">
+			<div class = "peopleblockhover">
+				<p>周月浩</p>
+			</div>
+		</div>
+		<div class = "peopleblock">
+			<img src = "img/member/wdz.jpg">
+			<div class = "peopleblockhover">
+				<p>文鼎柱</p>
+			</div>
+		</div>
 	</div>
 </div>
-
-<!--Nav-Table-->
-<table class = "nav-table">
-	<!--Video List-->
-	<td>
-		<li>1</li>
-		<li>2</li>
-	</td>
-	<!--News-->
-	<td>
-		<li>1</li>
-		<li>2</li>
-	</td>
-	<!--Friend Link-->
-	<td>
-		<li>1</li>
-		<li>2</li>
-	</td>
-</table>
 
 <!--Footer-->
 <div class = "footer">
@@ -102,6 +100,6 @@
 <!--Js-->
 <script type = "text/javascript" src = "js/jquery-3.1.1.min.js"></script>
 <script type = "text/javascript" src = "js/nav.js"></script>
-<script type = "text/javascript" src = "js/xSlider.js"></script>
+<script type = "text/javascript" src = "js/member.js"></script>
 </body>
 </html>

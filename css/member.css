@@ -12,13 +12,100 @@ div.year-title{
 }
 div.people-column{
 	width: 100%;
-	height: 100px;
+	height: 200px;
 	margin: 0px auto 0px auto;
 	text-align: center;
 	position: relative;
-	background: #644444;
+	background: #688888;
 	font-size: 16px;
 	font-family: 'MicroSoft YaHei';
 	font-weight: normal;
 	color: #ffffff;
+}
+div.year-title p{
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div.peopleblock{
+	width: 25%;
+	height: 100%;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	float: left;
+	position: relative;
+	background: #444444;
+	font-size: 16px;
+	color: #643519;
+}
+div.peopleblock img{
+	width: 100%;
+	position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.peopleblock div.peopleblockhover{
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	bottom: 0px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	background: #222333;
+	color: #ffffff;
+	font-size: 20px;
+	display: none;
+}
+div.peopleblock div.peopleblockhover p{
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div.left-pic{
+	width: 500px;
+	height: 500px;
+	float: left;
+	left: 50px;
+	position: absolute;
+	margin: 0px auto 0px auto;
+}
+div.left-pic img{
+	width: 100%;
+	position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+div.right-intro{
+	width: 500px;
+	height: 500px;
+	float: right;
+	right: 50px;
+	position: absolute;
+	margin: 0px auto 0px auto;
+}
+div.right-intro div.intro-title{
+	position: relative;
+	top: 70px;
+	color: #000000;
+	font-size: 35px;
+	font-family: 'MicroSoft YaHei';
+	font-weight: normal;
+}
+div.right-intro p{
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	text-align: left;
+	color: #000000;
+	font-size: 20px;
+	font-family: 'MicroSoft YaHei';
+	font-weight: normal;
+}
+div.bottom-sentenses{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	bottom: 0px;
+	margin: 0px auto 0px auto;
 }
