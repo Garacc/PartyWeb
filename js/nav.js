@@ -7,7 +7,7 @@ $(document).ready(function(){
         /*下拉框出现*/
         var Obj = $(this).attr('id');
         num = Obj.substring(3, Obj.length);
-        $('#box-'+num).stop().slideDown(200);
+        $('#box-'+num).stop().fadeIn(200);
     },function(){
         /*下拉框消失*/
         $('#box-'+num).stop().hide();
@@ -16,6 +16,6 @@ $(document).ready(function(){
     $('.hidden-box').hover(function(){
         $(this).stop().show();
     },function(){
-        $(this).stop().slideUp(100);
+        $(this).stop().fadeOut(100);
     });
 });

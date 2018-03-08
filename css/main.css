@@ -43,9 +43,20 @@ div.main-content{
 }
 
 /*Nav-Table*/
-table.nav-table{
+div.link-table{
 	width: 1200px;
+	height: 100px;
 	margin: 0px auto 0px auto;
+	position: relative;
+	text-align: center;
+	background: #611111;
+}
+div.link-table div.table-part{
+	width: 33%;   
+	height: 100%;
+	margin: 0px auto 0px auto;
+	position: relative;
+	float: left;
 	text-align: center;
 }
 
